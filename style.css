@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#main {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('./weather-clouds.jpg'); */
+    background-image: url('./img/weather.png');
+    /* height: 100%;
+    width: 100%; */
+    background-size: cover;
+}
+#search {
+    width: 88%;
+    height: 25px;
+    font-size: large;
+    font-family: 'Merriweather', serif;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.825);
+}
+.button {
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box{
+    margin: 10px;
+    width: auto;
+    height: 600px;
+    /* border: 3px solid red; */
+}
+#city {
+    color: black;
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: blue;
+}
